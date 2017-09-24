@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements ColorSelectedList
         ColorPicker colorPicker = (ColorPicker) findViewById(R.id.baseColorPicker);
         imageView = (ImageView) findViewById(R.id.iv_color);
 
-        colorPicker.setGradientView(R.drawable.circular_color_picker);
+        colorPicker.setGradientView(R.drawable.color_picker);
         colorPicker.setColorSelectedListener(this);
     }
 
