@@ -7,9 +7,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.colorpicker.shishank.colorpicker.ColorPicker;
-import com.colorpicker.shishank.colorpicker.ColorPicker.ColorSelectedListener;
 
-public class MainActivity extends AppCompatActivity implements ColorSelectedListener {
+public class MainActivity extends AppCompatActivity implements ColorPicker.ColorSelectedListener {
 
     private ImageView imageView;
 
