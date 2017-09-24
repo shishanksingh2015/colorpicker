@@ -2,7 +2,7 @@
 A custom color picker that will pick colors from any image.
 
 ## Gradle 
-   compile 'com.github.shishanksingh2015:colorpicker:v1.0'
+    compile 'com.github.shishanksingh2015:colorpicker:v1.0'
 
 ## Maven
 ```xml
