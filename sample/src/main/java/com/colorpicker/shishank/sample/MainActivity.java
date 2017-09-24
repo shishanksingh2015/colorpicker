@@ -1,4 +1,4 @@
-package com.colorpicker.shishank.sampleapplication;
+package com.colorpicker.shishank.sample;
 
 import android.os.Bundle;
 import android.support.annotation.ColorInt;
