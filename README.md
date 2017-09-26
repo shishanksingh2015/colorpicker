@@ -29,7 +29,7 @@ Android Color picker, is a custom image or drawable color picker.It is very easy
         android:layout_height="wrap_content"/>
         
 ```
-* Dial Value Change Listener
+* Value Change Listener
 ```java
    colorPicker.setGradientView(R.drawable.color_picker);
         colorPicker.setColorSelectedListener(new ColorPicker.ColorSelectedListener() {
