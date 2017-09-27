@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Color%20Picker-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6244)
 # colorpicker
 A custom color picker that will pick colors from any image.
 
