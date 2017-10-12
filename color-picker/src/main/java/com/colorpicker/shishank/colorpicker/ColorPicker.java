@@ -158,4 +158,18 @@ public class ColorPicker extends RelativeLayout {
         viewOverlay.setVisibility(overlayVisibility);
         isTouchable = viewOverlay.getVisibility() != VISIBLE;
     }
+
+    /**
+     * This method will provide custom shape to the picker
+     *
+     * @param resource resource should be a gradient drawable
+     */
+    public void setColorPicker(int resource) {
+        if (resource != -1) {
+            ivColorPicker.setBackgroundResource(resource);
+        } else {
+            throw new RuntimeException("resource cannot be null");
+        }
+    }
 }
+
